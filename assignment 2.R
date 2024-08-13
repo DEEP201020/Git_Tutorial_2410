@@ -39,5 +39,5 @@ tennis = function(p)
 }
 games = replicate(1000, tennis(0.6))
 ans = mean(games)
-ans
+print(ans)
 
